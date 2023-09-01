@@ -45,6 +45,7 @@ namespace GitGithubC_Intro
             //        Console.WriteLine(arr1[i] + " AZE ");
             //    }
             //}
+
             //5) Arrayinda olan elementləri çapa verən proqram tərtib edin
             //for (int i = 0; i < arr1.Length; i++)
             //{
