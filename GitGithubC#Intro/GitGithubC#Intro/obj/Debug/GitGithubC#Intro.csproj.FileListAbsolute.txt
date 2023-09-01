@@ -1,0 +1,7 @@
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\bin\Debug\GitGithubC#Intro.exe.config
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\bin\Debug\GitGithubC#Intro.exe
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\bin\Debug\GitGithubC#Intro.pdb
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\obj\Debug\GitGithubC#Intro.csproj.AssemblyReference.cache
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\obj\Debug\GitGithubC#Intro.csproj.CoreCompileInputs.cache
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\obj\Debug\GitGithubC#Intro.exe
+D:\C# projects\GitGithubC#Intro\GitGithubC#Intro\obj\Debug\GitGithubC#Intro.pdb
