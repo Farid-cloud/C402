@@ -6,36 +6,37 @@
     <title>Formlar</title>
 </head>
 <body>
-    <script src="app.js"></script>
     <h1>Qeydiyyat formu</h1>
-    <form action="">
-<label for="name">Adınız : </label><br>
-<input id="name" type="text" placeholder="Ad"><br>
+<form class="form">
+    <label for="name">Adınız : </label><br>
+    <input class="name" type="text" placeholder="Ad"><br>
 
-<label for="surname">Soyadınız : </label><br>
-<input id="surname" type="text" placeholder="Soyad"><br>
+    <label for="surname">Soyadınız : </label><br>
+    <input class="surname" type="text" placeholder="Soyad"><br>
 
-<label for="age">Yaşınız : </label><br>
-<input id="age" type="number" placeholder="Yaş"><br>
+    <label for="age">Yaşınız : </label><br>
+    <input class="age" type="number" placeholder="Yaş"><br>
 
-<label for="password">Şifrə : </label><br>
-<input id="password" type="password" placeholder="Şifrə"><br>
+    <label for="password">Şifrə : </label><br>
+    <input class="password" type="password" placeholder="Şifrə"><br>
 
-<label for="email">Email : </label><br>
-<input id="email" type="email" placeholder="Email "><br>
+    <label for="email">Email : </label><br>
+    <input class="email" type="email" placeholder="Email "><br>
 
-<label for="gender">Cins : </label>
-<select id="gender" required>
-<option value="kisi">Kişi</option>
-<option value="qadin">Qadın</option>
-</select><br>
+    <label for="gender">Cins : </label>
+    <select class="gender" required>
+    <option value="kisi">Kişi</option>
+    <option value="qadin">Qadın</option>
+    </select><br>
 
-<label for="hobbiler">Hobbilər:</label><br>
-<textarea id="hobbiler" type="text" required></textarea><br>
+    <label for="hobbiler">Hobbilər:</label><br>
+    <textarea class="hobbiler" type="text" required></textarea><br>
 
-<button type="submit">Qeydiyyatdan Keç</button>
-<button type="button" class="clear">Təmizlə</button>
+    <input type="submit" value="Qeydiyyatdan keçin" >
+    <input type="reset" value="Formu Təmizlə">
+
 
 </form>
+<script src="app.js"></script>
 </body>
 </html>
