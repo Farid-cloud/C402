@@ -1,39 +1,48 @@
-const name = document.querySelector(".name");
-const surname = document.querySelector(".surname");
+const ad = document.querySelector(".name");
+const soyad = document.querySelector(".surname");
 const id = document.querySelector(".ID");
 const password = document.querySelector(".password");
 const address = document.querySelector(".address");
 const form = document.querySelector(".form");
-const axios = require('axios');
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   // let database=[];
-  const adduser = {
-    ID: id,
-    Name: name,
-    Surname: surname,
-    Password: password,
-    Address: address,
-  };
+  // const adduser = {
+  //   id,
+  //   ad,
+  //   surname,
+  //   password,
+  //   address,
+  // };
   // database.push(adduser);
-  console.log("Yeni user yaradıldı : " + name.value + " " + surname.value);
+  console.log(
+    "Yeni user yaradıldı : " +
+      "Ad : " +
+      ad.value +
+      "," +
+      "Soyad : " +
+      soyad.value
+  );
 
   let obj = [];
   obj.id = id.value;
-  obj.name = name.value;
-  obj.surname = surname.value;
+  obj.ad = ad.value;
+  obj.soyad = soyad.value;
   obj.password = password.value;
   obj.address = address.value;
 
   console.log(obj);
+  // console.log(adduser);
+  axios.post("http://localhost:3100/users/", obj.value);
+
   form.reset();
 });
 const formdel = document.querySelector(".formdel");
 const delid = document.querySelector(".delid");
 
-formdel.addEventListener("submit", function (e) {
+formdel.addEventListener('click', function (e) {
   e.preventDefault();
-  
+  axios.delete(`http://localhost:3100/users/${did.value}`);
 });
